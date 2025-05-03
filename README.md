@@ -1,17 +1,16 @@
 # 🧺 Stable Diffusion Lab
 
-Welcome to the **Stable Diffusion Lab**, a Google Colab-based project that uses the powerful [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5) model to generate stunning images from text prompts using GPU acceleration.
+Stable Diffusion Lab'a hoş geldin! Bu proje, güçlü Stable Diffusion v1.5 modelini kullanarak metin girdilerinden etkileyici görseller oluşturmanı sağlayan, Google Colab tabanlı bir çalışmadır. Proje, GPU hızlandırması sayesinde yüksek performansla çalışır.
 
 ---
 
 ## 🔧 Setup
 
-1. Clone or open the notebook in Google Colab.
-2. Install required libraries:
+1. Notebook'u klonla ya da Google Colab üzerinde aç.
     ```python
     !pip install diffusers transformers accelerate scipy safetensors
     ```
-3. Login to Hugging Face:
+2. Hugging Face'e giriş yap:
     ```python
     from huggingface_hub import notebook_login
     notebook_login()
